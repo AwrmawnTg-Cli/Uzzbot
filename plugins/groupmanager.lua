@@ -5,8 +5,8 @@ do
 local function create_group(msg)
     -- superuser and admins only (because sudo are always has privilege)
     if not is_admin(msg) then
-        return "Sorry Only Admin Can Create
-        ببخشید تنها ادمین میتواند بسازد
+        return "Sorry You Don't Have Access
+        ببخشید شما مجاز به استفاده از این بخش نمیباشید
         سازنده: @thisisarman"
     end
     local group_creator = msg.from.print_name
