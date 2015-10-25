@@ -1,3 +1,4 @@
+
 ]]--
 
 local help = {}
@@ -360,4 +361,3 @@ return {
 	triggers = triggers,
 	action = action
 }
-
